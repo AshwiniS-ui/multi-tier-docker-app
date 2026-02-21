@@ -19,7 +19,7 @@ All components run in **separate Docker containers** and are orchestrated with *
 3. [Usage](#usage)
 4. [How It Works](#how-it-works)
 5. [Docker Concepts Demonstrated](#docker-concepts-demonstrated)
-6. [Interview Prep](#interview-prep)
+
 
 ---
 
