@@ -1,5 +1,5 @@
 cd ~/multi-tier-docker-app
-cat > README.md << EOF
+
 # Multi-Tier Docker App
 
 This project demonstrates a **multi-tier web application** using **Docker**. It includes:
@@ -25,17 +25,16 @@ All components run in **separate Docker containers** and are orchestrated with *
 
 ## Project Structure
 
-\`\`\`text
+```text
 multi-tier-docker-app/
- ├── backend/
- │    ├── app.py          # Flask API code
- │    ├── requirements.txt# Python dependencies
- │    └── Dockerfile      # Dockerfile to build backend image
- ├── frontend/
- │    ├── index.html      # Static HTML frontend
- │    └── Dockerfile      # Dockerfile to build frontend image
- └── docker-compose.yml   # Compose file to orchestrate all services
-\`\`\`
+  ├── backend/
+  │   ├── app.py           # Flask API code
+  │   ├── requirements.txt # Python dependencies
+  │   └── Dockerfile       # Dockerfile to build backend image
+  ├── frontend/
+  │   ├── index.html       # Static HTML frontend
+  │   └── Dockerfile       # Dockerfile to build frontend image
+  └── docker-compose.yml   # Compose file to orchestrate all services
 
 ---
 
@@ -175,5 +174,3 @@ Explanation:
 - Port mapping (container → host)  
 
 ---
-
-EOF
