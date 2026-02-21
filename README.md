@@ -176,17 +176,4 @@ Explanation:
 
 ---
 
-## Interview Prep
-
-**Questions you may get:**
-
-- Why use Docker for this project?  
-- Difference between Dockerfile and Docker Compose?  
-- How does backend connect to database in Docker?  
-- What is `depends_on` in Docker Compose?  
-- How do you persist database data?  
-- How would you scale this backend for multiple users?  
-
-**Tip:** Be able to **explain each Dockerfile line and Compose section**, and how containers communicate.
-
 EOF
